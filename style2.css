@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: cabin, sans-serif;
+    background-image: url("https://www.bryancharnley.info/wp-content/uploads/2015/04/Charnley_Self_Portrait_series_10.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.artist-page-container {
+    position: relative;
+}
+
+/* ---------- Header ---------- */
+
+.copyright {
+    color: #122ac4;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+/* ---------- Nav Bar ---------- */
+
+.artist-nav {
+    display: flex;
+    align-items: flex-end;
+    background-color: #162fca;
+    border-radius: 15px 50px 30px 5px;
+    opacity: 0.5;
+    height: 200px;
+    width: 10%;
+    padding: 5px 5px 5px 5px;
+    margin: 0px;
+    position: fixed;
+    top: 450px;
+}
+
+.artist-nav-left{
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 20px;
+}
+
+a.left:link, a.left:visited, a.left:active {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+a.left:hover {
+    font-size: 170%;
+}
+/* ---------- Hero Container ---------- */
+
+a.enter:link, a.enter:visited, a.enter:hover, a.enter:active {
+    text-align: center;
+    position: fixed;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 360px 710px;
+}
